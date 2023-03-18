@@ -6,7 +6,7 @@ class AppRoutes {
   Handler get handler {
     final router = Router();
 
-    router.mount('/v1/echo', EchoRoutes().router);
+    router.mount('/api/v1/echo', EchoRoutes().router);
 
     router.all(
         '/<ignored|.*>', (Request request) => Response.notFound('Not Found'));
