@@ -1,6 +1,6 @@
 # dartserver
 
-simple web server for Dart.
+Simple web server for Dart. Server entry point is 'bin/main.dart' main() function.
 
 ## run
 
