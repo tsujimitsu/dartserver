@@ -26,5 +26,5 @@ $ docker run -d -p 8080:8080 dartserver:1.0.0
 
 ```shell
 $ gcloud config set project {PROJECT_ID}
-$ gcloud run deploy --region asia-northeast1 --platform managed
+$ gcloud run deploy --region asia-northeast1 --platform managed --source .
 ```
