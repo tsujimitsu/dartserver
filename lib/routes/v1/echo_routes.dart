@@ -1,6 +1,6 @@
 import 'package:shelf/shelf.dart';
 import 'package:shelf_router/shelf_router.dart' show Router;
-import 'package:dartwebserver/controllers/echo_controller.dart'
+import 'package:dartserver/controllers/echo_controller.dart'
     show EchoController;
 
 class EchoRoutes {

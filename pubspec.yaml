@@ -1,4 +1,4 @@
-name: dartwebserver
+name: dartserver
 environment:
   sdk: '^2.19.2'
 dependencies:

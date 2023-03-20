@@ -1,6 +1,6 @@
 # dartserver
 
-Simple web server for Dart. Server entry point is 'bin/main.dart' main() function.
+Simple web server for Dart. Server entry point is 'bin/dartserver.dart' main() function.
 
 ## TODO
 
@@ -10,14 +10,14 @@ Simple web server for Dart. Server entry point is 'bin/main.dart' main() functio
 ## run
 
 ```shell
-$ dart run bin/main.dart
+$ dart run bin/dartserver.dart (or dart run)
 ```
 
 ## compile
 
 ```shell
-$ dart compile exe bin/main.dart -o bin/main
-$ ./bin/main
+$ dart compile exe bin/dartserver.dart -o bin/dartserver
+$ ./bin/dartserver
 ```
 
 ## run on docker
