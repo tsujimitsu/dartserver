@@ -4,7 +4,9 @@ Simple web server for Dart. Server entry point is 'bin/dartserver.dart' main() f
 
 ## TODO
 
-- [] Model, DB の追加
+- [*] Model, DB の追加
+  - 改善が必要
+- [] 認証の追加
 - [] CORS の動作確認
 
 ## run

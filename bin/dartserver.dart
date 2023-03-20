@@ -4,8 +4,13 @@ import 'package:shelf/shelf_io.dart' as shelf_io;
 import 'package:shelf_static/shelf_static.dart' as shelf_static;
 import 'package:shelf_cors_headers/shelf_cors_headers.dart' show corsHeaders;
 import 'package:dartserver/routes/app_routes.dart' as router;
+import 'package:dartserver/helpers/database_provider.dart'
+    show DatabaseProvider;
 
 Future<void> main() async {
+  // init db
+  DatabaseProvider.init();
+
   // set routes
   final staticFileHandler =
       shelf_static.createStaticHandler('public', defaultDocument: 'index.html');

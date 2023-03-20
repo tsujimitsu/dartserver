@@ -9,9 +9,9 @@ class EchoRoutes {
   Router get router {
     final router = Router();
 
-    router.get('/message', echoController.getMessage);
+    router.get('/message', echoController.getAllMessage);
     router.get('/messages', echoController.getMessages);
-    router.post('/message', echoController.postMessage);
+    router.post('/message', echoController.addMessage);
     router.put('/message', echoController.updateMessage);
     router.delete('/message', echoController.deleteMessage);
 
