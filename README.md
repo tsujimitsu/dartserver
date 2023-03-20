@@ -2,6 +2,11 @@
 
 Simple web server for Dart. Server entry point is 'bin/main.dart' main() function.
 
+## TODO
+
+- [] Model, DB の追加
+- [] CORS の動作確認
+
 ## run
 
 ```shell
